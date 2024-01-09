@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "jsx": "react-native",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true
+  },
+  "extends": "expo/tsconfig.base",
+  "paths": {
+    "@/*": [
+      "./*"
+    ]
+  }
+}
